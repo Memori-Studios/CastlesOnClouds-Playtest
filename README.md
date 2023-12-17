@@ -23,7 +23,7 @@ v0.0.2
 
 #### Environment Specs
 OS: Windows 10
-GPU: Nvidia GTX 3080
+GPU: Nvidia RTX 3080
 CPU: i7
 RAM: 32 Gigs
 
