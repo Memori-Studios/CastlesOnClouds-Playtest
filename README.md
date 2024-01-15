@@ -4,7 +4,6 @@ This github is for reporting bugs that are found in the playtest.
 When reporting bugs, I would appreciate if you follow this format, but it absolutely is not needed
 
 
-
 #### Current Behavior
 This thing does x
 
@@ -19,6 +18,9 @@ I clicked on this button after beating the game and there was an issue
 
 #### Playtest Version (top left corner)
 v0.0.2
+
+#### Seed (top left corner)
+021010-234
 
 
 #### Environment Specs
