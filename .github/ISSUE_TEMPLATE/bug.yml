@@ -1,0 +1,76 @@
+name: Bug Report
+description: Something is not working right
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before opening a new issue, take a moment to search through the current open ones.
+
+        ---
+
+  - type: textarea
+    id: current_behaviour
+    attributes:
+      label: Current Behavior
+      description: "Describe current bug behaviour"
+      placeholder: "This thing does x"
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_behaviour
+    attributes:
+      label: Expected Behavior
+      description: "Describe expected behaviour"
+      placeholder: "This thing should do y"
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps To Reproduce
+      description: "Steps to reproduce behaviour"
+      placeholder: "I clicked on this button after beating the game and there was an issue"
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Playtest Version (top left corner)
+      placeholder: "v0.0.2"
+    validations:
+      required: true
+
+  - type: input
+    id: seed
+    attributes:
+      label: Seed (top left corner)
+      placeholder: "021010-234"
+    validations:
+      required: false
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment Specs
+      description: "Provide your PC specs"
+      value: "- OS: [eg. Windows 10]
+
+        - GPU: [eg. Nvidia RTX 3080]
+
+        - CPU: [eg. i7]
+
+        - RAM: [eg. 32 Gigs]"
+    validations:
+      required: true
+
+  - type: textarea
+    id: others
+    attributes:
+      label: Anything else?
+      placeholder: "nah"
+    validations:
+      required: false

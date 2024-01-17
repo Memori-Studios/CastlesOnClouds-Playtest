@@ -1,0 +1,19 @@
+name: Enhancement
+description: I would like to request additional functionality or new content
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before opening a new issue, take a moment to search through the current open ones.
+
+        ---
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: "Describe your idea"
+      placeholder: "I want three-headed dragon that will spew gigantic fireballs"
+    validations:
+      required: true
