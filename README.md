@@ -1,6 +1,6 @@
-# CastlesOnClouds-Playtest
+# CastlesOnClouds-Early Access
 
-This github is for reporting bugs that are found in the playtest.
+This github is for reporting bugs that are found in Early Access.
 When reporting bugs, I would appreciate if you follow this format, but it absolutely is not needed
 
 
