@@ -66,7 +66,15 @@ body:
         - RAM: [eg. 32 Gigs]"
     validations:
       required: true
-
+      
+  - type: textarea
+    id: others2
+    attributes:
+      label: Please Attach Player.Log and saveData.json files here
+      placeholder: "There is a handy button in game that brings up the directory, attaching these increases the speed at which I can fix the bug by 100x"
+    validations:
+      required: false
+      
   - type: textarea
     id: others
     attributes:
