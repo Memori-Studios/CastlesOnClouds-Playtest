@@ -39,7 +39,7 @@ body:
   - type: input
     id: version
     attributes:
-      label: Playtest Version (center top)
+      label: Playtest Version (top left)
       placeholder: "v0.0.2"
     validations:
       required: true
@@ -47,7 +47,7 @@ body:
   - type: input
     id: seed
     attributes:
-      label: Seed (copy button center top)
+      label: Seed (copy button top left)
       placeholder: "021010-234"
     validations:
       required: false
